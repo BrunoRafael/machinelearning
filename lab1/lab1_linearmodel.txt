@@ -1,8 +1,8 @@
-3 - O Erro diminui até certa interação mas depois começa a aumentar novamente
+3 - O Erro diminui até certo ponto mas depois começa a aumentar a cada interação
 
-4 - Para atingir os valores de w0 e w1 como 5 e -39 respectivamente a taxa de aprendizagem e o 
-número de interações necessárias foram 0.0037 e 13000, respectivamente.
+4 - Para atingir os valores de w0 e w1 como 5 e -39 respectivamente, a taxa de aprendizagem foi 0.0037 e o 
+número de interações foi 13000.
 
-5 - Link para o código no git : 
+5 - Link para o código no git : https://github.com/BrunoRafael/machinelearning/tree/master/lab1
 
-6 - O valor de épsilon 0.0389
+6 - O valor limite de épsilon para que w0 seja igual a 5 e w1 = -39 é 0.0389

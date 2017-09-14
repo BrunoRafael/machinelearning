@@ -25,6 +25,8 @@ def compute_error_for_given_points(b, m, points):
 def step_gradient(b_current, m_current, points, learning_rate):
     #gradient_descendent
     b_gradient, m_gradient = RSS_GRADIENT(b_current, m_current, 0, 0, points)
+    print(b_gradient, m_gradient)
+
     new_b = b_current - (learning_rate * b_gradient)
     new_m = m_current - (learning_rate * m_gradient)
 
@@ -40,5 +42,5 @@ def gradient_descendent_runner(points, starting_b, starting_m, learning_rate, nu
     #while (RSS_NORM > 0.0389) :
         b, m = step_gradient(b, m, array(points), learning_rate)
         RSS_NORM = linalg.norm(RSS_GRADIENT(b, m, 0, 0, points))
-        print(RSS_NORM)
+
     return[b, m]

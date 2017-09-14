@@ -1,0 +1,8 @@
+3 - O Erro diminui até certa interação mas depois começa a aumentar novamente
+
+4 - Para atingir os valores de w0 e w1 como 5 e -39 respectivamente a taxa de aprendizagem e o 
+número de interações necessárias foram 0.0037 e 13000, respectivamente.
+
+5 - Link para o código no git : 
+
+6 - O valor de épsilon 0.0389
